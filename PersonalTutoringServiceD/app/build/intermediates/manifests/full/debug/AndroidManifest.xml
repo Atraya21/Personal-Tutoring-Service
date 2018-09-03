@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cse3310.personaltutoringservice"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <application
+        android:name="com.example.cse3310.personaltutoringservice.FullData"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.cse3310.personaltutoringservice.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.cse3310.personaltutoringservice.StudentHomepage" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.TutorHomePage" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.BuildSchedule" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.StartTimePage" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.FinishTimePage" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.FinishBuildingPage" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.ViewStudentSchedule" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.ViewTutorScedule" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.Search" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.WriteReview" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.CategorySearch" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.TutorSearch" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.EditScedule" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.EditScheduleRemove" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.FinishEditScedule" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.AddStarttimeEdit" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.AddfinishtimeEdit" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.Addedit" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.Adddaychoose" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.Hire" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.Hirep2" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.Review1" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.Viewreviewsmain" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.VeiwreviewsPre" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.Prehirepage" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.ViewschedulePre" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.ActivityLogin" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.TutorRegistration" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.Tutorbankinfo" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.StudentRegistration" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.Studentbankinfo" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.TypeofBuild" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.TypeofLogin" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.Studentlogin" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.Tutorinfoview" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.TutorEdittext" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.ViewBankifno" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.TutorViewEditBank" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.StudentviewInfo" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.StudentEditinfo" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.StudentBankinfoView" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.StudentBankInfoEdit" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.PreViewinfo" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.payment" />
+        <activity android:name="com.example.cse3310.personaltutoringservice.makepayment" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentMethodActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentConfirmActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.LoginActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PayPalFuturePaymentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentConsentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentInfoActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PayPalProfileSharingActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.ProfileSharingConsentActivity" />
+
+        <service
+            android:name="com.paypal.android.sdk.payments.PayPalService"
+            android:exported="false" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+
+        <activity
+            android:name="io.card.payment.CardIOActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="io.card.payment.DataEntryActivity" />
+
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>

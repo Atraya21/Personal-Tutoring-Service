@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.cse3310.personaltutoringservice.AddStarttimeEdit">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="302dp"
+        android:layout_height="427dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:alpha="0.3"
+        android:src="@drawable/bg_calender"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/button47"
+        android:layout_width="87dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="239dp"
+        android:layout_marginTop="300dp"
+
+        android:background="@color/Button"
+        android:textColor="#fff"
+
+        android:onClick="clicked11pm"
+        android:text="11:00PM"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:background="@color/Button"
+        android:textColor="#fff"
+
+        android:id="@+id/button46"
+        android:layout_width="87dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="239dp"
+        android:layout_marginTop="248dp"
+        android:onClick="clicked10pm"
+        android:text="10:00PM"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:background="@color/Button"
+        android:textColor="#fff"
+
+        android:id="@+id/button45"
+        android:layout_width="87dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="239dp"
+        android:layout_marginTop="197dp"
+        android:onClick="clicked9pm"
+        android:text="9:00PM"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:background="@color/Button"
+        android:textColor="#fff"
+
+        android:id="@+id/button44"
+        android:layout_width="87dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="239dp"
+        android:layout_marginTop="150dp"
+        android:onClick="clicked8pm"
+        android:text="8:00PM"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:background="@color/Button"
+        android:textColor="#fff"
+
+        android:id="@+id/button43"
+        android:layout_width="87dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="239dp"
+        android:layout_marginTop="101dp"
+        android:onClick="clicked7pm"
+        android:text="7:00PM"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+
+        android:background="@color/Button"
+        android:textColor="#fff"
+
+        android:id="@+id/button42"
+        android:layout_width="87dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="239dp"
+        android:layout_marginTop="55dp"
+        android:onClick="clicked6pm"
+        android:text="6:00PM"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:background="@color/Button"
+        android:textColor="#fff"
+
+        android:id="@+id/button41"
+        android:layout_width="87dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="127dp"
+        android:layout_marginTop="444dp"
+        android:onClick="clicked5pm"
+        android:text="5:00PM"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:background="@color/Button"
+        android:textColor="#fff"
+
+        android:id="@+id/button40"
+        android:layout_width="87dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="127dp"
+        android:layout_marginTop="396dp"
+        android:onClick="clicked4pm"
+        android:text="4:00PM"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:background="@color/Button"
+        android:textColor="#fff"
+
+        android:id="@+id/button39"
+        android:layout_width="87dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="350dp"
+        android:onClick="clicked3pm"
+        android:text="3:00PM"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:background="@color/Button"
+        android:textColor="#fff"
+
+        android:id="@+id/button38"
+        android:layout_width="87dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="300dp"
+        android:onClick="clicked2pm"
+        android:text="2:00PM"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:background="@color/Button"
+        android:textColor="#fff"
+
+        android:id="@+id/button36"
+        android:layout_width="87dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="197dp"
+        android:onClick="clicked12pm"
+        android:text="12:00PM"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:background="@color/Button"
+        android:textColor="#fff"
+
+        android:id="@+id/button37"
+        android:layout_width="87dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="248dp"
+        android:onClick="clicked1pm"
+        android:text="1:00PM"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:background="@color/Button"
+        android:textColor="#fff"
+
+        android:id="@+id/button35"
+        android:layout_width="87dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="150dp"
+        android:onClick="clicked11am"
+        android:text="11:00AM"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:background="@color/Button"
+        android:textColor="#fff"
+
+        android:id="@+id/button34"
+        android:layout_width="87dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="101dp"
+        android:onClick="clicked10am"
+        android:text="10:00AM"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:background="@color/Button"
+        android:textColor="#fff"
+
+        android:id="@+id/button32"
+        android:layout_width="87dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="55dp"
+        android:onClick="clicked9am"
+        android:text="9:00AM"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="87dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="55dp"
+        android:text="12:00AM"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:background="@color/Button"
+        android:textColor="#fff"
+
+        android:id="@+id/button31"
+        android:layout_width="87dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="444dp"
+        android:onClick="clicked8am"
+        android:text="8:00AM"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:background="@color/Button"
+        android:textColor="#fff"
+
+        android:id="@+id/button30"
+        android:layout_width="87dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="396dp"
+        android:onClick="clicked7am"
+        android:text="7:00AM"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:background="@color/Button"
+        android:textColor="#fff"
+
+        android:id="@+id/button29"
+        android:layout_width="87dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="350dp"
+        android:onClick="clicked6am"
+        android:text="6:00AM"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:background="@color/Button"
+        android:textColor="#fff"
+
+        android:id="@+id/button28"
+        android:layout_width="87dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="300dp"
+        android:onClick="clicked5am"
+        android:text="5:00AM"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:background="@color/Button"
+        android:textColor="#fff"
+
+        android:id="@+id/button27"
+        android:layout_width="87dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="248dp"
+        android:onClick="clicked4am"
+        android:text="4:00AM"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:background="@color/Button"
+        android:textColor="#fff"
+
+        android:id="@+id/button26"
+        android:layout_width="87dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="197dp"
+        android:onClick="clicked3am"
+        android:text="3:00AM"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:background="@color/Button"
+        android:textColor="#fff"
+
+        android:id="@+id/button25"
+        android:layout_width="87dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="150dp"
+        android:onClick="clicked2am"
+        android:text="2:00AM"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <TextView
+        android:background="@color/Button"
+        android:textColor="#fff"
+
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Select time for start TIme"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:background="@color/Button"
+        android:textColor="#fff"
+
+        android:id="@+id/button8"
+        android:layout_width="87dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="55dp"
+        android:onClick="clicked12am"
+        android:text="12:00AM"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:background="@color/Button"
+        android:textColor="#fff"
+
+        android:id="@+id/button9"
+        android:layout_width="83dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="101dp"
+        android:onClick="clicked1am"
+        android:text="1:00AM"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+</android.support.constraint.ConstraintLayout>

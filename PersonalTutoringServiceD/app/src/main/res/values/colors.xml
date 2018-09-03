@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="lime">#00FFFF</color>
+    <color name="black">#000000</color>
+    <color name="maroon">#800000</color>
+    <color name="blue">#0000FF</color>
+    <color name="limeButton">#90EE90</color>
+    <color name="lawngreen">#7CFC00</color>
+    <color name="charteuse">#32CD32</color>
+    <color name="Button">#303F9F</color>
+    <color name="white">#fff</color>
+</resources>

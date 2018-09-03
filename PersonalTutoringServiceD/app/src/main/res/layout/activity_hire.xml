@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cse3310.personaltutoringservice.Hire">
+
+    <Button
+        android:id="@+id/monview"
+        android:layout_width="97dp"
+
+        android:layout_height="wrap_content"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/Button"
+        android:onClick="clickedmonday"
+        android:text="Monday"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/tuesview"
+        android:layout_width="98dp"
+
+        android:layout_height="wrap_content"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="88dp"
+        android:background="@color/Button"
+        android:onClick="clickedtuesday"
+        android:text="Tuesday"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/wedView"
+        android:layout_width="98dp"
+
+        android:layout_height="wrap_content"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="152dp"
+        android:background="@color/Button"
+        android:onClick="clickedwednesday"
+        android:text="Wednesday"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/viewThurs"
+        android:layout_width="102dp"
+
+        android:layout_height="wrap_content"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="212dp"
+        android:background="@color/Button"
+        android:onClick="clickedthursday"
+        android:text="Thurday"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/friView"
+        android:layout_width="99dp"
+
+        android:layout_height="43dp"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="268dp"
+        android:background="@color/Button"
+        android:onClick="clickedFriday"
+        android:text="Friday"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/viewSat"
+        android:layout_width="102dp"
+
+        android:layout_height="wrap_content"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="324dp"
+        android:background="@color/Button"
+        android:onClick="clickedSaturday"
+        android:text="Saturday"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sunView"
+        android:layout_width="103dp"
+
+        android:layout_height="wrap_content"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="384dp"
+        android:background="@color/Button"
+        android:onClick="clikedSunday"
+        android:text="Sunday"
+        android:textColor="#fff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/Mylistview"
+        android:layout_width="212dp"
+        android:layout_height="495dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:background="@color/Button"
+        android:textColor="#fff"
+
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26652dp"
+        android:text="Button"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="26890dp" />
+
+</android.support.constraint.ConstraintLayout>

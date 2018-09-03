@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cse3310.personaltutoringservice">
+
+    <application
+        android:name=".FullData"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".StudentHomepage" />
+        <activity android:name=".TutorHomePage" />
+        <activity android:name=".BuildSchedule" />
+        <activity android:name=".StartTimePage" />
+        <activity android:name=".FinishTimePage" />
+        <activity android:name=".FinishBuildingPage" />
+        <activity android:name=".ViewStudentSchedule" />
+        <activity android:name=".ViewTutorScedule" />
+        <activity android:name=".Search" />
+        <activity android:name=".WriteReview" />
+        <activity android:name=".CategorySearch" />
+        <activity android:name=".TutorSearch" />
+        <activity android:name=".EditScedule" />
+        <activity android:name=".EditScheduleRemove" />
+        <activity android:name=".FinishEditScedule" />
+        <activity android:name=".AddStarttimeEdit" />
+        <activity android:name=".AddfinishtimeEdit" />
+        <activity android:name=".Addedit" />
+        <activity android:name=".Adddaychoose" />
+        <activity android:name=".Hire" />
+        <activity android:name=".Hirep2" />
+        <activity android:name=".Review1" />
+        <activity android:name=".Viewreviewsmain" />
+        <activity android:name=".VeiwreviewsPre" />
+        <activity android:name=".Prehirepage" />
+        <activity android:name=".ViewschedulePre" />
+        <activity android:name=".ActivityLogin" />
+        <activity android:name=".TutorRegistration" />
+        <activity android:name=".Tutorbankinfo" />
+        <activity android:name=".StudentRegistration" />
+        <activity android:name=".Studentbankinfo" />
+        <activity android:name=".TypeofBuild" />
+        <activity android:name=".TypeofLogin" />
+        <activity android:name=".Studentlogin" />
+        <activity android:name=".Tutorinfoview" />
+        <activity android:name=".TutorEdittext" />
+        <activity android:name=".ViewBankifno" />
+        <activity android:name=".TutorViewEditBank" />
+        <activity android:name=".StudentviewInfo" />
+        <activity android:name=".StudentEditinfo" />
+        <activity android:name=".StudentBankinfoView" />
+        <activity android:name=".StudentBankInfoEdit" />
+        <activity android:name=".PreViewinfo"/>
+        <activity android:name=".payment"/>
+
+        <activity android:name=".makepayment"></activity>
+    </application>
+
+</manifest>
